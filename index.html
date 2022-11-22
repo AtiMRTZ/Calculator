@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>My Calculator</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<h1><span id="num-1">0</span><span>   </span><span id="num-2">0</span></h1>
+		
+		<div class="container">
+			<button class="add-btn" id="increment-left" onclick="incrementLeft ()">Increment left</button>
+			<button class="add-btn" id="increment-right" onclick="incrementRight ()">Increment right</button>
+			<br>
+			<button class="sub-btn" id="decrement-left" onclick="decrementLeft ()">Decrement left</button>
+			<button class="sub-btn" id="decrement-right" onclick="decrementRight()">Decrement right</button>
+			<br>
+		</div>
+		
+		<button class="main-btn" id="add-btn" onclick="add ()">add</button>
+		<button class="main-btn" id="sub-btn" onclick="sub ()">subtract</button>
+		<button class="main-btn" id="div-btn" onclick="div ()">devide</button>
+		<button class="main-btn" id="mul-btn" onclick="mul ()">multiply</button>
+		<br>
+		<h3 id="result">result:</h3>
+		
+		<script src="app.js" charset="utf-8"></script>	
+	</body>
+</html>

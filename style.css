@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	background-color: azure;
+}
+
+h1 {
+	font-family: cursive;
+	font-size: 4rem;
+	font-style: italic;
+	color: brown;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.main-btn {
+    font-size: -webkit-xxx-large;
+    padding: 20px;
+    border-color: white;
+    border-radius: 35px;
+    width: 300px;
+    color: aliceblue;
+    background-color: teal;
+}
+
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.add-btn {
+	font-size: 2rem;
+    padding: 10px;
+    border-color: white;
+    border-radius: 35px;
+    width: 350px;
+    color: white;
+    background-color: darkgreen;
+}
+
+.sub-btn {
+	font-size: 2rem;
+    padding: 10px;
+    border-color: white;
+    border-radius: 35px;
+    width: 350px;
+    color: white;
+    background-color: darkred;
+}
+
+#result {
+	font-size: 30px;
+	font-family: cursive;
+}
